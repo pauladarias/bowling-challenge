@@ -47,9 +47,11 @@ _/_  _/_  _/_  _/_  _/_  _/_  _/_  _/_  _/_  _/_ = 0 points (20 times roll  = 0 
 ```
 4. Simplest implementation strike case:
 
-10  1/1  _/_  _/_  _/_  _/_  _/_  _/_  _/_  _/_  = 14 points (10 from the strike + 2 from the two next rolls (1/1) + 2 from the nect two rolls)
+```
 
- 
+10  1/1  _/_  _/_  _/_  _/_  _/_  _/_  _/_  _/_  = 14 points (10 from the strike + 2 from the two next rolls (1/1) + 2 from the next two rolls)
+
+ ```
 
 
 

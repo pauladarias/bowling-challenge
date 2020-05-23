@@ -13,7 +13,7 @@ class Game {
 
     for (let frameIndex = 0; frameIndex < 10; frameIndex++) {
       //First -strike Logic
-      if(this.rolls[rollIndex] === 10) {
+      if (this.rolls[rollIndex] === 10) {
         score += 10 + this.rolls[rollIndex + 1] + this.rolls[rollIndex + 2]
         rollIndex++; 
         continue;
