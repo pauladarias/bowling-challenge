@@ -18,14 +18,23 @@ describe('Game', function(){
       game.roll(1);
     }
     expect(game.score).toEqual(20);
-  })
+  }) 
   it('returns correspondent points when spare', function(){
     game.roll(5);
     game.roll(5);
-    game.roll(3);
+    game.roll(4);
+    for (let i = 0; i < 18; i ++) {
+      game.roll(0)
+    }
+    expect(game.score).toEqual(18);
+  })
+  it('retrurns correspondent points when strike', function(){
+    game.roll(10);
+    game.roll(1);
+    game.roll(1);
     for (let i = 0; i < 17; i ++) {
       game.roll(0)
     }
-    expect(game.score).toEqual(16);
+    expect(game.score).toEqual(14)
   })
 })  

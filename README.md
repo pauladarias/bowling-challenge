@@ -30,22 +30,24 @@ Objective --> knock 10 pins (Strike) in 10 rounds
 |             | score       |
 
 
-1. simplest implementation no points: 
+1. Simplest implementation no points: 
 
 ```
 _/_  _/_  _/_  _/_  _/_  _/_  _/_  _/_  _/_  _/_ = 0 points (20 times roll  = 0 points)
 ``` 
-2. simplest implementation minimum points: 
+2. Simplest implementation minimum points: 
 
 ```
 1/1  1/1  1/1  1/1  1/1  1/1  1/1  1/1  1/1  1/1 = 20 points (20 times roll = 20 points)
 ```
-3. simplest implementation spare case:
+3. Simplest implementation spare case:
 
 ```
 5/5  4/_  _/_  _/_  _/_  _/_  _/_  _/_  _/_  _/_  = 18 points (10 from the spare + 4 from the first roll + 4 from the first roll)
 ```
+4. Simplest implementation strike case:
 
+10  1/1  _/_  _/_  _/_  _/_  _/_  _/_  _/_  _/_  = 14 points (10 from the strike + 2 from the two next rolls (1/1) + 2 from the nect two rolls)
 
  
 
