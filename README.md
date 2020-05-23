@@ -40,6 +40,11 @@ _/_  _/_  _/_  _/_  _/_  _/_  _/_  _/_  _/_  _/_ = 0 points (20 times roll  = 0 
 ```
 1/1  1/1  1/1  1/1  1/1  1/1  1/1  1/1  1/1  1/1 = 20 points (20 times roll = 20 points)
 ```
+3. simplest implementation spare case:
+
+```
+5/5  4/_  _/_  _/_  _/_  _/_  _/_  _/_  _/_  _/_  = 18 points (10 from the spare + 4 from the first roll + 4 from the first roll)
+```
 
 
  

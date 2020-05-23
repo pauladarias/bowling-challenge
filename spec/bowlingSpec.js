@@ -19,4 +19,13 @@ describe('Game', function(){
     }
     expect(game.score).toEqual(20);
   })
-}) 
+  it('returns correspondent points when spare', function(){
+    game.roll(5);
+    game.roll(5);
+    game.roll(3);
+    for (let i = 0; i < 17; i ++) {
+      game.roll(0)
+    }
+    expect(game.score).toEqual(16);
+  })
+})  
