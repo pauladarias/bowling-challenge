@@ -1,11 +1,14 @@
-describe('Bowling', function(){
+describe('Game', function(){
 
-  var bowling;
+  var game;
 
-  bowling = new Bowling();
+  game = new Game();
 
   it('returns a number', function(){
-    expect(bowling.get_number()).toEqual(20);
+    for (let i = 0; i < 20; i ++) {
+      game.roll(0)
+    }
+    expect(game.score(0)).toEqual(0);
 
   });
 })

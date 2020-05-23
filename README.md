@@ -1,3 +1,49 @@
+### MY APPROACH 
+---
+
+Objective --> knock 10 pins (Strike) in 10 rounds
+
+1. Each game --> 10 frames with 2 rolls each 
+2. Each frame --> objective: to knock down 10 pins 
+
+- Spare: knocking down 10 pins in 2 rolls
+     - Spare points: 10 (from knocking down 10 pins in 2 rolls)
+                    +
+                     pins knocked down in the roll (1st on the next frame)
+
+- Strike: knocking down all 10 pins on the FIRST ROLL on each frame 
+    - Strike points: 10 (stike points)
+                    +
+                    pins knocked down in the next TWO rolls
+
+3. Last frame --> strickes or spares in the last frame allow the player to have one (for a spare) or two extra rolls (for strike)
+
+---
+
+
+### STRUCTURE 
+
+
+| Class       |    Methods  |
+|-------------| ----------  |
+| Game        | roll        |
+|             | score       |
+
+
+1. simplest implementation: 
+
+```
+_/_  _/_  _/_  _/_  _/_  _/_  _/_  _/_  _/_  _/_ = 0 points (20 times roll  = 0 points)
+``` 
+
+
+ 
+
+
+
+
+
+
 
 Bowling Challenge
 =================

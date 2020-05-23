@@ -1,6 +1,10 @@
-class Bowling {
+class Game {
 
-  get_number() {
-    return 20;
+  roll() {
+    return 0;
+  }
+
+  score() {
+    return 0;
   }
 }
