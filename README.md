@@ -30,11 +30,16 @@ Objective --> knock 10 pins (Strike) in 10 rounds
 |             | score       |
 
 
-1. simplest implementation: 
+1. simplest implementation no points: 
 
 ```
 _/_  _/_  _/_  _/_  _/_  _/_  _/_  _/_  _/_  _/_ = 0 points (20 times roll  = 0 points)
 ``` 
+2. simplest implementation minimum points: 
+
+```
+1/1  1/1  1/1  1/1  1/1  1/1  1/1  1/1  1/1  1/1 = 20 points (20 times roll = 20 points)
+```
 
 
  
